@@ -1,4 +1,6 @@
 *.swp
 fchksvr/fchksvr
+fchksvr/fchksvr.exe
 fchkclient/fchkclient
+fchkclient/fchkclient.exe
 

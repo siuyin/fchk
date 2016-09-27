@@ -6,11 +6,11 @@ import (
 	"net/rpc"
 	"os"
 
-	sv "siuyin/rpctry/fchk"
+	sv "github.com/siuyin/fchk"
 )
 
 func main() {
-	client, err := rpc.DialHTTP("tcp", os.Getenv(FCHK_URL))
+	client, err := rpc.DialHTTP("tcp", os.Getenv("FCHK_URL"))
 	if err != nil {
 		log.Fatal("dial:", err)
 	}
